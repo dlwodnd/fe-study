@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+div{border: 2px solid #000; width: 100px; left: 20px;}
+div.static{position: static;}
+div.relative{position: relative; border-color: blueviolet;}
+div.fixed{position: fixed; border-color: green; top: 0;left: 0;}
+body{padding-top: 20px;}
+div.absolute{position: absolute;top: 0; border-color: blue; top: 0; left: auto; right: 0;}
+div.relative2{position: relative; border-color: blueviolet; width: 200px; height: 200px;}
+div.sticky{position: sticky; position:-webkit-sticky; top: 0; border-color: red;left: 250px;}
